@@ -48,8 +48,7 @@ body {
 }
 .row input,.row select{
     padding:12px;
-    /* change hbe font size 12/14 hobe */
-    font-size:16px;
+    font-size:12px;
     border:1px solid #d0d5dd;
     border-radius:8px;
 }

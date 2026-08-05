@@ -60,3 +60,18 @@ body{
     border-radius: 8px;
     margin-bottom: 12px;
 }
+#btn{
+    width: 100%;
+    padding: 12px 14px;
+    background: #4a7cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#btn:hover{
+    background: #3a6cef;
+
+}
+

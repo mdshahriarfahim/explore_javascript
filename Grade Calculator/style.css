@@ -19,3 +19,25 @@ body{
     align-items: center;
     margin-bottom: 40px;
 }
+.logo{
+    font-weight: 800;
+    font-size: 18px;
+}
+.hero a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 6px 14px;
+    border-radius:20px;
+}
+.hero h1{
+    font-size: 36px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10px;
+}

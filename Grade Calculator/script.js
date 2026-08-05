@@ -15,3 +15,11 @@ function getGrade(m) {
 }
 
 //Button click event
+tn.addEventListener("click", () => {
+  const m = Number(input.value);
+
+  if (Number.isNaN(m) || m < 0 || m > 100) {
+    out.className = "result fail";
+    out.textContent = "Enter a number between 0-100";
+    return;
+  }

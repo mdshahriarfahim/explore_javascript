@@ -74,4 +74,22 @@ body{
     background: #3a6cef;
 
 }
-
+.result{
+    margin-top: 18px;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    display: none;
+}
+.result.pass{
+    background: #e6fff2;
+    color: #0a7f3f;
+    display: block;
+}
+.result.fail{
+    background: #ffecec;
+    color: #b00020;
+    display: block;
+}

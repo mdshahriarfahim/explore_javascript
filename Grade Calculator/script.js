@@ -23,3 +23,7 @@ tn.addEventListener("click", () => {
     out.textContent = "Enter a number between 0-100";
     return;
   }
+  const r = getGrade(m);
+  out.className = "result " + (r.pass ? "pass" : "fail");
+  out.textContent = "Grade: " + r.g + " — " + r.msg;
+});

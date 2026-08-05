@@ -14,7 +14,7 @@ function getGrade(m) {
   return { g: "F", pass: false, msg: "Fail — Try again" };
 }
 
-//Button click event
+//Button click 
 tn.addEventListener("click", () => {
   const m = Number(input.value);
 
@@ -26,4 +26,9 @@ tn.addEventListener("click", () => {
   const r = getGrade(m);
   out.className = "result " + (r.pass ? "pass" : "fail");
   out.textContent = "Grade: " + r.g + " — " + r.msg;
+});
+
+//working enter key
+input.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") btn.click();
 });

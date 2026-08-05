@@ -15,7 +15,7 @@ function getGrade(m) {
 }
 
 //Button click 
-tn.addEventListener("click", () => {
+btn.addEventListener("click", () => {
   const m = Number(input.value);
 
   if (Number.isNaN(m) || m < 0 || m > 100) {

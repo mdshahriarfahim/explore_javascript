@@ -8,3 +8,14 @@ body{
     background: #f5f7fb;
     color: #1a1a2e;
 }
+.hero{
+    background: linear-gradient(135deg,#4a7cff,#8a5cff);
+    color:#fff;
+    padding: 24px 20px 60px;
+}
+.hero nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}

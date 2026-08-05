@@ -31,3 +31,9 @@ document.getElementById("go").addEventListener("click",() => {
 });
 
 console.log("QuickCalc loaded");
+
+
+
+
+
+

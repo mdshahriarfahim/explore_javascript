@@ -93,3 +93,27 @@ body{
     color: #b00020;
     display: block;
 }
+.tips{
+    max-width: 480px;
+    margin: 0 auto 40px;
+    padding:  0 20px;
+}
+.tips ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 8px;
+}
+.tips li{
+    background: #fff;
+    padding: 12px 14px;
+    border-radius: 8px;
+    box-shadow: 1px solid #e6eaf1;
+}
+
+footer{
+    text-align: center;
+    padding: 20px ;
+    color: #666;
+    font-size: 13px;
+}

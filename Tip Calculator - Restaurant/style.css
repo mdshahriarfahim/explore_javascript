@@ -49,3 +49,22 @@
     border:1px solid #e5cba9;
      border-radius:8px; 
 }
+.pct-row {
+     display:grid;
+      grid-template-columns:repeat(4,1fr);
+       gap:8px;
+     margin-top:6px; 
+}
+.pct { 
+    padding:10px;
+     border:1px solid #ff8a3d; 
+     background:#fff; 
+     color:#ff5a3d;
+     border-radius:8px;
+     cursor:pointer;
+     font-weight:700; 
+}
+.pct.active { 
+    background:#ff5a3d; 
+    color:#fff; 
+}

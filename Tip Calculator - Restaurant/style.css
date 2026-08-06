@@ -1,0 +1,30 @@
+* { 
+    box-sizing:border-box; 
+    margin:0;
+     padding:0; 
+     font-family: system-ui, sans-serif;
+ }
+ body {
+     background:#fff8f0; 
+     color:#2a1e10; 
+     min-height:100vh; 
+}
+.hero {
+     background: linear-gradient(135deg,#f18a3d,#ff5a3d); 
+     color:#fff;
+     padding:24px 20px 70px;
+     text-align:center;
+} 
+.brand { 
+    font-weight:800; 
+    letter-spacing:1px; 
+    margin-bottom:30px; 
+}
+.hero h1 { 
+    font-size:32px; 
+}
+.hero p {
+     margin-top:8px; 
+     opacity:.9; 
+}
+

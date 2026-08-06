@@ -36,3 +36,8 @@ billE1.addEventListener("input", (e)=> {bill = +e.target.value || 0; calc(); });
             calc();
         });
     });
+
+//Default active
+
+document.querySelector('.pct[data-p="10"]').classList.add("active");
+calc();

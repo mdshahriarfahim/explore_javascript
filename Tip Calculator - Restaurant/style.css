@@ -68,3 +68,23 @@
     background:#ff5a3d; 
     color:#fff; 
 }
+.out { 
+    margin-top:18px; 
+    border-top:1px dashed #e5cba9; 
+    padding-top:14px;
+ }
+.row { display:flex; 
+    justify-content:space-between; 
+    padding:6px 0; 
+}
+.row.big { 
+    font-size:20px;
+     border-top:1px solid #e5cba9; 
+     margin-top:8px; 
+     padding-top:12px; 
+}
+footer { text-align:center;
+     padding:20px; 
+     color:#8a6a4a; 
+     font-size:13px; 
+}

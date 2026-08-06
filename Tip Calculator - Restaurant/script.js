@@ -21,3 +21,18 @@ function calc(){
     totalE1.textContent ="TK" + round2(total);
     eachE1.textContent ="Tk" + round2(each);
 }
+
+// event wiring
+
+billE1.addEventListener("input", (e)=> {bill = +e.target.value || 0; calc(); });
+    peopleE1.addEventListener("input" , (e) => { people = +e.target.value || 1; calc(); });
+
+
+    document.querySelectorAll(.pct).forEach((btn) => {
+        btn.addEventListener("click", () => {
+            document.querySelectorAll(".pct").forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            tipPct = +btn.dataset.p;
+            calc();
+        });
+    });

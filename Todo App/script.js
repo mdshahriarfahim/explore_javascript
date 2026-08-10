@@ -13,17 +13,18 @@ function updateCount (){
 
 //Add todo
 function addTodo(){
-    const text ="input.value.trim()";
-    if (text === " "){
+    //remove the ""
+    const text =input.value.trim();
+    if (text === ""){
         alert("Something write!");
         return;
     }
 
     const li = document.createElement("li");
     li.innerHTML = `
-    <span>$ {text}</span>
+    <span>${text}</span>
     <button class="delete">Delete</button>`;
-}
+
 
 //Click on text-mark done
 li.querySelector("span").addEventListListener("click", () => {
@@ -35,4 +36,16 @@ li.querySelector(".delete").addEventListListener("click", () => {
     li.remove();
     updateCount();
 });
+
+list.appendChild(li);
+input.value = "";
+updateCount();
+}
+
+// Events
+addbtn.addEventListener("click", addTodo);
+input.addEventListener("keydown",(e) =>{
+    if (e.key === "Enter") addTodo();
+});
+console.log("Todo App loaded");
 

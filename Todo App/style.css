@@ -37,3 +37,17 @@ h1{
     border: none;
     cursor: pointer;
 }
+#todoList{
+    list-style: none;
+}
+#todoList li{
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+todoList li.done{
+    text-decoration: line-through;
+    color: #999;
+}

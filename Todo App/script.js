@@ -18,4 +18,21 @@ function addTodo(){
         alert("Something write!");
         return;
     }
+
+    const li = document.createElement("li");
+    li.innerHTML = `
+    <span>$ {text}</span>
+    <button class="delete">Delete</button>`;
 }
+
+//Click on text-mark done
+li.querySelector("span").addEventListListener("click", () => {
+    li.classList.toggle("done");
+});
+
+//Delete button
+li.querySelector(".delete").addEventListListener("click", () => {
+    li.remove();
+    updateCount();
+});
+

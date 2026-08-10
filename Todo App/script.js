@@ -6,4 +6,6 @@ const list = document.getElementById("todoList");
 const count = document.getElementById("count");
 
 // update counter
-
+function updateCount{
+    
+}

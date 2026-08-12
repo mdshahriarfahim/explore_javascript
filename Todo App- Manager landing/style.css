@@ -53,3 +53,45 @@ body {
   border: 1px solid #d0d5dd; 
   border-radius: 8px; 
 }
+.composer button { 
+  padding: 12px 18px; 
+  background: #7c3aed; 
+  color: #fff; 
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  font-weight: 700; 
+}
+
+.list { 
+  list-style: none; 
+}
+
+.list li { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 12px; 
+  border-radius: 8px; 
+  margin-bottom: 6px; 
+  background: #f5f7fb; 
+}
+
+.list li span { 
+  flex: 1; 
+  cursor: pointer; 
+}
+
+.list li.done span { 
+  text-decoration: line-through; 
+  color: #999; 
+}
+
+.list li .del { 
+  background: #fee; 
+  color: #c00; 
+  border: none; 
+  padding: 5px 10px; 
+  border-radius: 6px; 
+  cursor: pointer;
+}

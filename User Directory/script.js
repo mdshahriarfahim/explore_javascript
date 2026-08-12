@@ -10,3 +10,30 @@ async function loadUsers() {
         document.getElementById("users").innerHTML = "Error!";
     }
 }
+
+function render(users){
+    const container = document.getElementById("users");
+
+    container.innerHTML = users
+    .map(
+        (u) => `
+        <div class="card">
+        <h3> ${u.name} </h3>
+        <p>  ${u.email} </p>
+        <p>  ${u.phone} </p>
+        <p>  ${u.address.city} </p>
+        <p>  ${u.website} </p>
+        </div>
+        `
+    )
+    .join("");
+}
+
+// search
+
+document.getElementById("search").addEventListener("input", (e) => {
+    const q = e.target.value.toLowerCase();
+    const filtered = allUsers.filter((u) => 
+    
+    );
+})

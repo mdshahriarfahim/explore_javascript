@@ -38,3 +38,5 @@ document.getElementById("search").addEventListener("input", (e) => {
     );
     render(filtered);
 });
+
+loadUsers();

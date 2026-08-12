@@ -31,3 +31,25 @@ body {
   opacity: .9; 
   margin-top: 6px; 
 }
+.app { 
+  max-width: 520px; 
+  margin: -40px auto 30px; 
+  background: #fff; 
+  padding: 20px; 
+  border-radius: 14px; 
+  box-shadow: 0 12px 30px rgba(0,0,0,.1); 
+}
+
+.composer { 
+  display: flex; 
+  gap: 8px; 
+  margin-bottom: 14px; 
+}
+
+.composer input { 
+  flex: 1; 
+  padding: 12px; 
+  font-size: 15px; 
+  border: 1px solid #d0d5dd; 
+  border-radius: 8px; 
+}

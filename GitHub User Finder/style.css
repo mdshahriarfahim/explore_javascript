@@ -63,3 +63,45 @@ body {
   cursor: pointer;
   font-weight: 700;
 }
+.loader {
+  margin-top: 14px;
+  text-align: center;
+  color: #7d8590;
+}
+
+.out {
+  margin-top: 16px;
+}
+
+.card {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  border: 2px solid #238636;
+}
+
+.card h2 {
+  margin-bottom: 4px;
+  color: #fff;
+}
+
+.card p {
+  color: #8b949e;
+  font-size: 13px;
+}
+
+.card .stats {
+  margin-top: 8px;
+  display: flex;
+  gap: 14px;
+  font-size: 13px;
+}

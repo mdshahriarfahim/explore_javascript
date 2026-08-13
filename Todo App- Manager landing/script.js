@@ -9,3 +9,14 @@ function updateCount() {
   const done = list.querySelectorAll("li.done").length;
   count.textContent = `${total} tasks · ${done} done`;
 }
+
+
+// Add
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const li = document.createElement("li");
+  li.innerHTML = `<span>${input.value}</span><button class="del">✕</button>`;
+  list.appendChild(li);
+  input.value = "";
+  updateCount();
+});

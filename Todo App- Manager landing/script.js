@@ -20,3 +20,11 @@ form.addEventListener("submit", (e) => {
   input.value = "";
   updateCount();
 });
+
+// One delegated listener for toggle + delete
+list.addEventListener("click", (e) => {
+  const li = e.target.closest("li");
+  if (!li) return;
+  if (e.target.matches(".del")) { li.remove(); updateCount(); return; }
+  if (e.target.tagName === "SPAN") { li.classList.toggle("done"); updateCount(); }
+});

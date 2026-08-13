@@ -105,3 +105,17 @@ body {
   gap: 14px;
   font-size: 13px;
 }
+.err {
+  padding: 14px;
+  background: #2d0d0d;
+  color: #ff8080;
+  border-radius: 8px;
+  border: 1px solid #6b1f1f;
+}
+
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #7d8590;
+  font-size: 12px;
+}
